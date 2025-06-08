@@ -3,7 +3,7 @@ A collection of helpful bash commands and step by step instructions for installi
 
 
 Heads up: IBM DB2 Community Edition and IBM Data Studio are 100% free.
-Use them without fear. The only time you get in trouble is if you run Enterprise Edition without a valid entitlment.
+Use them without fear. The only time you get in trouble is if you run Enterprise Edition without a valid entitlement.
 
 IBM DB2: 
 
