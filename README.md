@@ -55,18 +55,19 @@ lrwxrwxrwx 1 root root 14 Jan  1 12:00 /bin/lksh -> /usr/bin/ksh93
 lrwxrwxrwx 1 root root 14 Jan  1 12:00 /bin/mksh -> /usr/bin/ksh93
 */
 
-
 👉 sudo apt install binutils
 
 👉 sudo apt install libaio1
-
 
 👉 sudo dpkg --add-architecture i386
 
 👉 sudo apt install libpam0g:i386
 
+👉 wget https://ftp.cs.up.ac.za/ubuntu/pool/main/liba/libaio/libaio1_0.3.112-13build1_amd64.deb
 
+👉 sudo dpkg -i libaio1_0.3.112-13build1_amd64.deb
 
+👉 sudo apt --fix-broken install
 
 2. Extract the Archive
 
@@ -84,7 +85,6 @@ lrwxrwxrwx 1 root root 14 Jan  1 12:00 /bin/mksh -> /usr/bin/ksh93
 /*
 it should say requirement matched for all entries, proceed to step 3 if all good
 */
-
 
 
 3. Launch the Installer with GUI - follow prompts
