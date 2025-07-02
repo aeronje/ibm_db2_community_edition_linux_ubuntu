@@ -63,6 +63,8 @@ lrwxrwxrwx 1 root root 14 Jan  1 12:00 /bin/mksh -> /usr/bin/ksh93
 
 👉 sudo apt install libpam0g:i386
 
+👉 sudo apt install libstdc++6:i386
+
 👉 wget https://ftp.cs.up.ac.za/ubuntu/pool/main/liba/libaio/libaio1_0.3.112-13build1_amd64.deb
 
 👉 sudo dpkg -i libaio1_0.3.112-13build1_amd64.deb
